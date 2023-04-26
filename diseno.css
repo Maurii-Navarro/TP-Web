@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     height: 100%;
+    padding: 16px;
+    margin-left: 40px;
+     
+}
+
+
+.airplane_img{
+    width: 20vh;
+    height: 20vh;
+    
+}
+
+.personal{
+    width: 150px;
+    height: 110px;
+    border-radius: 50%;  
+    margin: 3em;
+}
+
+.servicioNacional,.servicioInternacional,.servicioTransporte{
+    background-color: black;
+    width: 100%;
+    height: 40vh;
+}
+
+.servicioNacional{
+    background-image: url("Proyecto AP/cerro.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+.servicioInternacional{
+    background-image: url("Proyecto AP/viajes.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.servicioTransporte{
+    background-image: url("Proyecto AP/transporte.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+footer {
+    background-color: bisque;
+    padding: 50px 0;
+  }
+
+  footer h4 {
+    color: #343a40;
+    margin-bottom: 20px;
+  }
+  footer ul li {
+    margin-bottom: 10px;
+  }
+  footer ul li a img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+  }
+  footer ul.list-inline li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  footer ul.list-unstyled li a {
+    color: #6c757d;
+    text-decoration: none;
+  }
+  footer ul.list-unstyled li a:hover {
+    color: #343a40;
+  }
+  footer p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #6c757d;
+  }
+
+
+@media all and (max-width:767px) and (min-width:524px){
+    .menu{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media all and (max-width:767px){
+    .redes_sociales{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        
+        text-align: center;
+       }
+}
+@media all and (max-width:727px){
+   #destinos{
+    padding-left: 1em !important;
+    padding-right: 1em !important;
+   }
+   
+    .card{
+    width: 95% !important;
+    
+   }
+}
+@media all and (max-width:425px){
+    .btn-contacto{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+}
+@media all and (max-width:380px){
+    .redes_sociales ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .navegacion{
+        display: flex;
+        flex-direction:column;
+    }
+    .navegacion ul li a{
+        text-align: center;
+    }
+}
